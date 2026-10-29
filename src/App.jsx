@@ -28,7 +28,11 @@ function App() {
   return (
     <div className="portfolio">
       <nav className="navbar">
-        <a href="#home" className="logo">Dev<span>Portfolio.</span></a>
+        
+<a href="#home" className="logo">
+  Sneha<span>'s Portfolio.</span>
+</a>
+
         <div className="nav-links">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
@@ -41,11 +45,22 @@ function App() {
         <section className="hero" id="home">
           <div className="hero-content">
             <p className="eyebrow"><span className="status-dot" /> AVAILABLE TO LEARN & COLLABORATE</p>
-            <h1>Building digital<br />experiences with <span>React.</span></h1>
-            <p className="hero-description">
-              Hi, I'm a frontend developer in the making. I enjoy turning
-              ideas into clean, responsive, and user-friendly web experiences.
-            </p>
+           
+<h1>
+  Hi, I'm Sneha Patel.
+  <br />
+  Building digital
+  <br />
+  experiences with <span>React.</span>
+</h1>
+
+            
+<p className="hero-description">
+  Hi, I'm Sneha Patel, an aspiring frontend developer.
+  I enjoy turning ideas into clean, responsive, and
+  user-friendly web experiences using React and JavaScript.
+</p>
+
             <div className="hero-actions">
               <a className="button primary" href="#projects">Explore my work ↗</a>
               <a className="button secondary" href="#contact">Let's connect</a>
@@ -169,7 +184,11 @@ function App() {
       </main>
 
       <footer className="footer">
-        <a href="#home" className="logo">Dev<span>Portfolio.</span></a>
+        
+<a href="#home" className="logo">
+  Sneha<span>'s Portfolio.</span>
+</a>
+
         <p>Designed with curiosity. Built with React.</p>
         <a href="#home" className="back-top">Back to top ↑</a>
       </footer>
