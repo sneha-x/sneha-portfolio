@@ -137,6 +137,28 @@ function App() {
           </div>
         </section>
 
+        
+<div className="social-links">
+  <a
+    href="https://github.com/sneha-x"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="GitHub profile"
+  >
+    GitHub ↗
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/sneha-patel-926174426/"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="LinkedIn profile"
+  >
+    LinkedIn ↗
+  </a>
+</div>
+
+
         <section className="contact-section" id="contact">
           <p className="eyebrow">04 / GET IN TOUCH</p>
           <h2>Have an idea?<br /><span>Let's build it.</span></h2>
